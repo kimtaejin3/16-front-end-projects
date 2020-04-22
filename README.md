@@ -5,4 +5,4 @@ I code it on my own, and following result my own clone code.
 ## 2) Four card feature section
 show project explaination [four card feature section](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK).
 
-![result](./first project)
+![result](https://github.com/kimtaejin3/16-front-end-projects/blob/master/first%20project.PNG)
