@@ -3,6 +3,6 @@
 I code it on my own, and following result my own clone code.
 
 ## 2) Four card feature section
-프로젝트 설명보기[four card feature section](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK).
+show project explaination [four card feature section](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK).
 
-![jsp 웹 게시판 완성본](./)
+![result](./first project.png)
