@@ -1,0 +1,112 @@
+body,h1,h2,p{
+    margin:0;
+    padding:0;
+}
+    
+body{
+    background-color:  hsl(0, 0%, 98%);
+    font-size:15px;
+}
+
+.clearfix{
+    content:' ';
+    display:block;
+    clear:both;
+}
+
+.top{
+    max-width:1440px;
+    text-align: center;
+    margin:50px auto;
+}    
+
+.top h1{
+    margin-bottom:10px;
+    font-weight: normal;
+    margin-bottom:20px;
+    color: hsl(234, 12%, 34%);
+}
+
+.top-span{
+  color:hsl(234, 12%, 34%);
+  font-weight: bold;
+  display: block;
+}
+
+.top p{
+    letter-spacing:0.6px;
+    color:hsl(229, 6%, 66%);
+}
+
+.wrapper{
+    width: 1440px;
+    margin:0 auto;
+    position: relative;
+}
+
+.section{
+    background-color:white;
+    height: 200px;
+    width:300px;
+    margin:50px auto; 
+    padding:30px;
+    text-align: left;
+    box-shadow: rgba(10,0.6,0.6);
+    border-top:5px solid hsl(180, 62%, 55%);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-image: url(images/icon-supervisor.svg);
+    background-repeat: no-repeat;
+    background-position: bottom  20px right 20px;
+}
+
+/*float*/
+.section.left{
+    margin:0;
+    position: absolute;
+    top:50%;
+    left:10%; 
+   transform: translateY(-50%);
+}
+
+.section.right{
+    margin:0;
+    position: absolute;
+    top:50%;
+    right:10%;
+    transform: translateY(-50%);
+}
+
+.section.team{
+    border-color: red;
+    background-image: url(images/icon-team-builder.svg);
+}
+
+.section.karma{
+    border-color:orange;
+    background-image: url(images/icon-karma.svg);
+}
+
+.section.calculator{
+    border-color: blue;
+    background-image: url(images/icon-calculator.svg);
+}
+
+
+.section h2{
+    font-weight: normal;
+    margin-bottom:10px;
+    color: hsl(234, 12%, 34%);
+}
+
+.section p{
+    color:hsl(229, 6%, 66%);
+}
+
+footer{
+    padding:20px;
+}
+
+    /* footer */
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
