@@ -1,0 +1,121 @@
+
+body,h2,p,h1,h3{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-size:16px;
+    background-color: hsl(204, 43%, 93%);
+    color:hsl(218, 22%, 67%);
+}
+
+.clearfix::after{
+    content:' ';
+    display:block;
+    clear:both;
+}
+
+.wrapper{
+    background-color: white;
+    width:800px;
+    margin:170px auto;
+    box-sizing: border-box;
+    box-shadow:0 0 30px 10px rgba(0, 0, 0, 0.1);
+}
+
+.welcome h1{
+    margin-bottom:20px;
+    color:hsl(179, 62%, 43%);
+    font-size:28px;
+}
+
+.welcome h3{
+    margin-bottom: 10px;
+    color:hsl(71, 73%, 54%);
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.welcome p{
+    line-height: 1.8;
+}
+
+
+.welcome{
+    padding:40px;
+    border-radius: 10px;
+    margin-bottom:10px;
+}
+
+
+.sub{
+    background-color: hsl(179, 62%, 43%);
+    padding:40px;
+    color:white;
+    box-sizing: border-box;
+    float: left;
+    width:50%;
+    height: 300px;
+}
+
+.sub.right{
+    background-color: hsl(179, 42%, 58%);
+}
+
+.sub.left h2{
+    font-weight: lighter;
+    font-size:20px;
+    margin-bottom: 14px;
+}
+
+.sub.right h2{
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom:14px;
+}
+
+.sub.right p{
+    line-height: 1.7;
+    color: white;
+    opacity: 0.6;
+    text-align: left;
+    width:260px;
+    letter-spacing: 1px;
+}
+
+.sub-price{
+    margin-bottom:10px;
+    font-size: 35px;
+    font-family: 'Karla', sans-serif;
+    position: relative;
+}
+
+.sub.left p{
+    margin-bottom:35px;
+}
+
+.per{
+    font-size:0.5em;
+    opacity: 0.5;
+    margin-left: 0.5em; 
+    position: absolute;
+    top:0.6em;
+    font-weight: normal;
+}
+
+.signup{
+    padding:15px;
+    color:white;
+    background-color: hsl(71, 73%, 54%);
+    display:block;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* footer */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
